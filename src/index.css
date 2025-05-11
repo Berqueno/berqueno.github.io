@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --scroll-width: 8px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scrollbar-width: var(--scroll-width);
+    scrollbar-color: theme('colors.primary.500') theme('colors.slate.200');
+  }
+  
+  ::-webkit-scrollbar {
+    width: var(--scroll-width);
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: theme('colors.slate.200');
+    border-radius: var(--scroll-width);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: theme('colors.primary.500');
+    border-radius: var(--scroll-width);
+    transition: background-color 0.3s ease;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: theme('colors.primary.600');
+  }
+  
+  body {
+    @apply bg-gradient-to-br from-slate-50 via-white to-slate-100 text-slate-900 dark:from-slate-900 dark:via-slate-900 dark:to-slate-800 dark:text-white;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold leading-tight;
+  }
+
+  h1 {
+    @apply text-5xl sm:text-6xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-accent-500 dark:from-primary-400 dark:to-accent-400;
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl sm:text-3xl;
+  }
+
+  a {
+    @apply text-primary-600 dark:text-primary-400 hover:text-primary-800 dark:hover:text-primary-300 transition-all duration-300;
+  }
+
+  section {
+    @apply relative overflow-hidden;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 sm:px-6 lg:px-8 mx-auto max-w-7xl;
+  }
+  
+  .section-padding {
+    @apply py-24 sm:py-32;
+  }
+  
+  .section-title {
+    @apply text-4xl font-bold text-slate-900 dark:text-white mb-8 inline-block relative;
+  }
+  
+  .section-title::after {
+    content: '';
+    @apply absolute -bottom-3 left-0 w-24 h-1 bg-gradient-to-r from-primary-600 to-accent-500 dark:from-primary-400 dark:to-accent-400 rounded-full;
+  }
+  
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 transform hover:scale-105 active:scale-95;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-600 to-accent-500 text-white hover:from-primary-700 hover:to-accent-600 focus:ring-primary-500 dark:from-primary-500 dark:to-accent-400 dark:hover:from-primary-600 dark:hover:to-accent-500 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white dark:border-primary-400 dark:text-primary-400 dark:hover:bg-primary-400 dark:hover:text-slate-900 shadow-lg hover:shadow-xl;
+  }
+  
+  .card {
+    @apply bg-white/80 dark:bg-slate-800/80 backdrop-blur-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 border border-slate-200/50 dark:border-slate-700/50;
+  }
+
+  .skill-card {
+    @apply relative overflow-hidden;
+  }
+
+  .skill-card::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-br from-primary-500/10 to-accent-500/10 dark:from-primary-500/5 dark:to-accent-500/5 opacity-0 transition-opacity duration-300;
+  }
+
+  .skill-card:hover::before {
+    @apply opacity-100;
+  }
+
+  .progress-bar {
+    @apply h-2 rounded-full bg-slate-200 dark:bg-slate-700 overflow-hidden;
+  }
+
+  .progress-bar-fill {
+    @apply h-full rounded-full bg-gradient-to-r from-primary-600 to-accent-500 dark:from-primary-400 dark:to-accent-400 transition-all duration-1000;
+  }
+}
+
+.animate-section {
+  @apply opacity-0 translate-y-8 transition-all duration-1000;
+}
+
+.animate-section.in-view {
+  @apply opacity-100 translate-y-0;
+}
