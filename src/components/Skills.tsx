@@ -26,9 +26,9 @@ export const Skills: React.FC = () => {
       icon: <Globe size={24} />,
       skills: [
         { name: 'React', proficiency: 90 },
-        { name: 'TypeScript', proficiency: 85 },
-        { name: 'JavaScript', proficiency: 95 },
-        { name: 'HTML/CSS', proficiency: 90 },
+        { name: 'TypeScript', proficiency: 80 },
+        { name: 'JavaScript', proficiency: 85 },
+        { name: 'HTML/CSS', proficiency: 95 },
       ],
     },
     {

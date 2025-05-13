@@ -14,14 +14,14 @@ export const Footer: React.FC = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div>
-            <h3 className="text-2xl font-bold text-white mb-4">John Doe</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Berqueno</h3>
             <p className="text-slate-400 mb-6 max-w-xs">
               A passionate developer focused on creating beautiful and functional digital
               experiences using modern web technologies.
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://github.com"
+                href="https://github.com/Berqueno"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-primary-400 transition-colors"
@@ -65,7 +65,7 @@ export const Footer: React.FC = () => {
                 </svg>
               </a>
               <a
-                href="https://twitter.com"
+                href="https://twitter.com/Berqueno"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-primary-400 transition-colors"
@@ -162,32 +162,10 @@ export const Footer: React.FC = () => {
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                 </svg>
                 <a
-                  href="mailto:john.doe@example.com"
+                  href="mailto:berqueno@gmail.com"
                   className="text-slate-400 hover:text-primary-400 transition-colors"
                 >
-                  john.doe@example.com
-                </a>
-              </li>
-              <li className="flex items-start">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="mr-2 text-primary-400 flex-shrink-0 mt-1"
-                >
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                </svg>
-                <a
-                  href="tel:+11234567890"
-                  className="text-slate-400 hover:text-primary-400 transition-colors"
-                >
-                  +1 (123) 456-7890
+                  berqueno@gmail.com
                 </a>
               </li>
               <li className="flex items-start">
@@ -207,7 +185,7 @@ export const Footer: React.FC = () => {
                   <circle cx="12" cy="10" r="3"></circle>
                 </svg>
                 <span className="text-slate-400">
-                  San Francisco, California, USA
+                  İstanbul, Türkiye
                 </span>
               </li>
             </ul>
@@ -216,8 +194,8 @@ export const Footer: React.FC = () => {
 
         <div className="border-t border-slate-800 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-slate-400 text-center sm:text-left mb-4 sm:mb-0">
-            © {new Date().getFullYear()} John Doe. All rights reserved. Made with{' '}
-            <Heart size={14} className="inline text-red-500 mx-1" /> using React & Tailwind CSS.
+            © {new Date().getFullYear()} Berqueno. All rights reserved. Made with{' '}
+            <Heart size={14} className="inline text-red-500" /> using React & Tailwind CSS.
           </p>
           <button
             onClick={scrollToTop}

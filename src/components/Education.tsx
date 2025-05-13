@@ -17,27 +17,27 @@ export const Education: React.FC = () => {
   });
 
   const education: EducationItem[] = [
-    {
-      institution: 'Massachusetts Institute of Technology',
-      degree: 'Master of Science in Computer Science',
-      period: '2018 - 2020',
+      {
+      institution: 'Self-Taught',
+      degree: 'Full Stack Developer',
+      period: '2020 - Present',
       description:
-        'Specialized in Human-Computer Interaction and Artificial Intelligence. Graduated with honors.',
+        'A passionate developer focused on creating beautiful and functional digital experiences using modern web technologies.',
     },
     {
-      institution: 'University of California, Berkeley',
-      degree: 'Bachelor of Science in Computer Science',
-      period: '2014 - 2018',
+      institution: 'Soon',
+      degree: 'Computer Engineering',
+      period: '2025 - Present',
       description:
-        'Focus on software engineering and web development. Active member of the Web Development Club.',
+        'Specialized in Human-Computer Interaction and Artificial Intelligence. Graduated with honors.',
     },
   ];
 
   const certifications = [
-    { name: 'AWS Certified Developer', issuer: 'Amazon Web Services', year: '2022' },
-    { name: 'Professional Scrum Master I', issuer: 'Scrum.org', year: '2021' },
-    { name: 'Google UX Design Professional Certificate', issuer: 'Google', year: '2021' },
-    { name: 'React Nanodegree', issuer: 'Udacity', year: '2020' },
+    { name: 'AWS Certified Developer', issuer: 'Amazon Web Services', year: 'Soon' },
+    { name: 'Professional Scrum Master I', issuer: 'Scrum.org', year: 'Soon' },
+    { name: 'Google UX Design Professional Certificate', issuer: 'Google', year: 'Soon' },
+    { name: 'React Nanod  egree', issuer: 'Udacity', year: 'Soon' },
   ];
 
   const containerVariants = {

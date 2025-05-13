@@ -50,14 +50,14 @@ export const About: React.FC = () => {
                 <Briefcase size={28} />
               </div>
               <h3 className="text-xl font-semibold mb-2">5+ Years</h3>
-              <p className="text-slate-600 dark:text-slate-400">Professional Experience</p>
+              <p className="text-slate-600 dark:text-slate-400">Experience</p>
             </div>
             
             <div className="text-center">
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 mb-4">
                 <Coffee size={28} />
               </div>
-              <h3 className="text-xl font-semibold mb-2">50+ Projects</h3>
+              <h3 className="text-xl font-semibold mb-2">10+ Private Projects</h3>
               <p className="text-slate-600 dark:text-slate-400">Completed</p>
             </div>
             
@@ -90,17 +90,6 @@ export const About: React.FC = () => {
               constantly learning and evolving my skill set to stay at the forefront of
               this ever-changing industry.
             </p>
-          </motion.div>
-          
-          <motion.div variants={itemVariants} className="mt-8">
-            <a 
-              href="/resume.pdf" 
-              className="btn btn-outline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Download Resume
-            </a>
           </motion.div>
         </motion.div>
       </div>

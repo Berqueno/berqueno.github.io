@@ -26,67 +26,67 @@ export const Projects: React.FC = () => {
     {
       title: 'E-Commerce Platform',
       description:
-        'A full-featured e-commerce platform with product listings, shopping cart, user authentication, and payment processing.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod augue in diam luctus molestie. Fusce commodo tortor dui, sit amet ullamcorper purus efficitur quis.',
       image: 'https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
       links: {
         demo: 'https://example.com',
-        github: 'https://github.com',
+        github: 'https://github.com/Berqueno',
       },
     },
     {
       title: 'Task Management App',
       description:
-        'A Kanban-style task management application with drag-and-drop functionality, task assignments, and due dates.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod augue in diam luctus molestie. Fusce commodo tortor dui, sit amet ullamcorper purus efficitur quis.',
       image: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       tags: ['React', 'TypeScript', 'Firebase'],
       links: {
         demo: 'https://example.com',
-        github: 'https://github.com',
+        github: 'https://github.com/Berqueno',
       },
     },
     {
       title: 'Weather Dashboard',
       description:
-        'A weather application that displays current conditions and forecasts based on location, with beautiful visualizations.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod augue in diam luctus molestie. Fusce commodo tortor dui, sit amet ullamcorper purus efficitur quis.',
       image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       tags: ['JavaScript', 'API', 'CSS'],
       links: {
         demo: 'https://example.com',
-        github: 'https://github.com',
+        github: 'https://github.com/Berqueno',
       },
     },
     {
       title: 'Social Media Analytics',
       description:
-        'A dashboard for tracking and analyzing social media metrics across multiple platforms with data visualization.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod augue in diam luctus molestie. Fusce commodo tortor dui, sit amet ullamcorper purus efficitur quis.',
       image: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       tags: ['React', 'D3.js', 'Node.js'],
       links: {
         demo: 'https://example.com',
-        github: 'https://github.com',
+        github: 'https://github.com/Berqueno',
       },
     },
     {
       title: 'Fitness Tracker',
       description:
-        'An application to track workouts, set fitness goals, and monitor progress with charts and statistics.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod augue in diam luctus molestie. Fusce commodo tortor dui, sit amet ullamcorper purus efficitur quis.',
       image: 'https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       tags: ['React Native', 'Firebase', 'API'],
       links: {
         demo: 'https://example.com',
-        github: 'https://github.com',
+        github: 'https://github.com/Berqueno',
       },
     },
     {
       title: 'Recipe Finder',
       description:
-        'A recipe search application with filtering options, saved favorites, and shopping list generator.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod augue in diam luctus molestie. Fusce commodo tortor dui, sit amet ullamcorper purus efficitur quis.',
       image: 'https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       tags: ['JavaScript', 'API', 'CSS'],
       links: {
         demo: 'https://example.com',
-        github: 'https://github.com',
+        github: 'https://github.com/Berqueno',
       },
     },
   ];

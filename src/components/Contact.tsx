@@ -104,29 +104,10 @@ export const Contact: React.FC = () => {
                   Email
                 </h4>
                 <a
-                  href="mailto:john.doe@example.com"
+                  href="mailto:berqueno@gmail.com"
                   className="text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                 >
-                  john.doe@example.com
-                </a>
-              </div>
-            </div>
-
-            <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 mt-1">
-                <div className="p-3 bg-primary-100 dark:bg-primary-900/30 rounded-lg text-primary-600 dark:text-primary-400">
-                  <Phone size={20} />
-                </div>
-              </div>
-              <div>
-                <h4 className="text-lg font-medium text-slate-900 dark:text-white mb-1">
-                  Phone
-                </h4>
-                <a
-                  href="tel:+11234567890"
-                  className="text-slate-600 dark:text-slate-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-                >
-                  +1 (123) 456-7890
+                  berqueno@gmail.com
                 </a>
               </div>
             </div>
@@ -142,7 +123,7 @@ export const Contact: React.FC = () => {
                   Location
                 </h4>
                 <p className="text-slate-600 dark:text-slate-400">
-                  San Francisco, California, USA
+                  İstanbul, Türkiye
                 </p>
               </div>
             </div>
@@ -153,7 +134,7 @@ export const Contact: React.FC = () => {
               </h4>
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/Berqueno"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-slate-100 dark:bg-slate-800 rounded-lg text-slate-700 dark:text-slate-300 hover:bg-primary-100 dark:hover:bg-primary-900/30 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
